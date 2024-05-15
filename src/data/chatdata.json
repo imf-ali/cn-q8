@@ -1,0 +1,321 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 2,
+      "name": "Bob Williams",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 4,
+      "name": "Dave Alexander",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 5,
+      "name": "Eve Anderson",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 6,
+      "name": "Franklin Delano Roosevelt",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 7,
+      "name": "Grace Kelly",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 8,
+      "name": "Hank Marvin",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 9,
+      "name": "Ivy Green",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 10,
+      "name": "Jack Robinson",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 11,
+      "name": "Karen Carpenter",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 12,
+      "name": "Leonardo da Vinci",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 13,
+      "name": "Mona Lisa",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 14,
+      "name": "Nina Simone",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 15,
+      "name": "Oscar Wilde",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 16,
+      "name": "Paul McCartney",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 17,
+      "name": "Quinn Fabray",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 18,
+      "name": "Rachel Green",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 19,
+      "name": "Steven Spielberg",
+      "pic": "tommyPic"
+    },
+    {
+      "id": 20,
+      "name": "Tina Turner",
+      "pic": "tommyPic"
+    }
+  ],
+  "conversations": [
+    {
+      "contactId": 1,
+      "messages": [
+        {
+          "sender": "Alice Johnson",
+          "text": "Hey, how are you?",
+          "timestamp": "2024-05-13T10:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "I'm good, thanks! How about you?",
+          "timestamp": "2024-05-13T10:01:00Z"
+        },
+        {
+          "sender": "Alice Johnson",
+          "text": "Doing well, just busy with work.",
+          "timestamp": "2024-05-13T10:02:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 2,
+      "messages": [
+        {
+          "sender": "Bob Williams",
+          "text": "Are you coming to the party?",
+          "timestamp": "2024-05-13T11:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "Yes, I'll be there!",
+          "timestamp": "2024-05-13T11:01:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 3,
+      "messages": [
+        {
+          "sender": "Charlie Brown",
+          "text": "Did you finish the project?",
+          "timestamp": "2024-05-13T12:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "Not yet, still working on it.",
+          "timestamp": "2024-05-13T12:05:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 4,
+      "messages": [
+        {
+          "sender": "Dave Alexander",
+          "text": "Let's catch up soon!",
+          "timestamp": "2024-05-13T13:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "Sure, how about this weekend?",
+          "timestamp": "2024-05-13T13:05:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 5,
+      "messages": [
+        {
+          "sender": "Eve Anderson",
+          "text": "Can you help me with this task?",
+          "timestamp": "2024-05-13T14:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "Of course, what do you need help with?",
+          "timestamp": "2024-05-13T14:02:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 6,
+      "messages": [
+        {
+          "sender": "Franklin Delano Roosevelt",
+          "text": "Let's schedule a meeting.",
+          "timestamp": "2024-05-13T15:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "How about tomorrow morning?",
+          "timestamp": "2024-05-13T15:10:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 7,
+      "messages": [
+        {
+          "sender": "Grace Kelly",
+          "text": "Do you have the report ready?",
+          "timestamp": "2024-05-13T16:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "I'll send it over by the end of the day.",
+          "timestamp": "2024-05-13T16:30:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 8,
+      "messages": [
+        {
+          "sender": "Hank Marvin",
+          "text": "How's the weather there?",
+          "timestamp": "2024-05-13T17:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "It's sunny and warm!",
+          "timestamp": "2024-05-13T17:05:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 9,
+      "messages": [
+        {
+          "sender": "Ivy Green",
+          "text": "Are you free for a call?",
+          "timestamp": "2024-05-13T18:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "Yes, I'm available now.",
+          "timestamp": "2024-05-13T18:01:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 10,
+      "messages": [
+        {
+          "sender": "Jack Robinson",
+          "text": "Can you review this document?",
+          "timestamp": "2024-05-13T19:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "Sure, I'll take a look at it.",
+          "timestamp": "2024-05-13T19:15:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 11,
+      "messages": [
+        {
+          "sender": "Karen Carpenter",
+          "text": "Happy birthday!",
+          "timestamp": "2024-05-13T20:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "Thank you!",
+          "timestamp": "2024-05-13T20:05:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 12,
+      "messages": [
+        {
+          "sender": "Leonardo da Vinci",
+          "text": "What do you think about this design?",
+          "timestamp": "2024-05-13T21:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "It's impressive!",
+          "timestamp": "2024-05-13T21:10:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 13,
+      "messages": [
+        {
+          "sender": "Mona Lisa",
+          "text": "Are you coming to the art exhibition?",
+          "timestamp": "2024-05-13T22:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "Yes, I'll be there.",
+          "timestamp": "2024-05-13T22:20:00Z"
+        }
+      ]
+    },
+    {
+      "contactId": 14,
+      "messages": [
+        {
+          "sender": "Nina Simone",
+          "text": "Let's plan a music night.",
+          "timestamp": "2024-05-13T23:00:00Z"
+        },
+        {
+          "sender": "User",
+          "text": "Sounds great!",
+          "timestamp": "2024-05-13T23:30:00Z"
+        }
+      ]
+    }
+  ]
+}

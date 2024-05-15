@@ -1,0 +1,136 @@
+.chatBody{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.topBar{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ede9e9;
+  justify-content: space-between;
+  padding: 0 2vw;
+}
+
+.topBarImageDiv img{
+  height: 4vh;
+  border-radius: 50%;
+}
+
+.topBarName{
+  font-weight: 500;
+}
+
+.circleIcon{
+  font-size: 20px;
+}
+
+.messagesDiv{
+  display: flex;
+  background-color: #f4f1f1;
+  height: 84vh;
+  overflow-y: scroll;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.messagesDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.messageBoxDiv{
+  background-color: #f4f1f1;
+  height: 8vh;
+}
+
+.messageBoxDivEl{
+  display: flex;
+  width: 94%;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 80%;
+  padding: 0 1vw;
+}
+
+.messageBoxDivEl input{
+  color: #746d6d;
+  border: none;
+  padding: 2vh;
+  width: 90%;
+  font-size: 16px;
+}
+
+.messageBoxDivEl input:focus {
+  outline: none;
+}
+
+.attchmentIcon{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.downIcon{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.btnDiv{
+  display: flex;
+  align-items: center;
+  width: 7%;
+  justify-content: center;
+}
+
+.sendBtn{
+  height: 60%;
+  background-color: #080404;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 4vw;
+  cursor: pointer;
+}
+
+.messageItem{
+  width: 100%;
+}
+
+.senderMessage{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d1cccc;
+  color: #746d6d;
+  border-radius: 3px;
+  width: fit-content;
+  max-width: 60%;
+  padding: 15px;
+  background-color: white;
+  margin: 12px 1.5%;
+  border-radius: 0 10px 10px 10px;
+}
+
+.myMessage{
+  display: flex;
+  flex-direction: column;
+  background-color: #080404;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  float: right;
+  width: fit-content;
+  max-width: 60%;
+  padding: 15px;
+  background-color: #379683;
+  margin: 12px 1.5%;
+  border-radius: 10px 0 10px 10px;
+}
+
+.timestamp{
+  display: flex;
+  justify-content: end;
+  font-size: small;
+  margin-top: 4%;
+}
